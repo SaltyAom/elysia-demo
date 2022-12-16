@@ -1,0 +1,16 @@
+{
+  "name": "hi-elysia",
+  "version": "1.0.12",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^0.1.0-rc.3",
+    "elysia": "^0.1.0-rc.7"
+  },
+  "devDependencies": {
+    "bun-types": "^0.3.0"
+  },
+  "module": "src/index.js"
+}
